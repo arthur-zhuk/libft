@@ -6,13 +6,13 @@
 /*   By: azhuk <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/07/20 09:30:35 by azhuk             #+#    #+#             */
-/*   Updated: 2016/09/28 16:35:46 by azhuk            ###   ########.fr       */
+/*   Updated: 2016/10/15 11:06:00 by azhuk            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdlib.h>
+#include "libft.h"
 
-char	*ft_strdup(char *src)
+char	*ft_strdup(const char *src)
 {
 	int		i;
 	char	*str;
