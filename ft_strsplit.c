@@ -6,13 +6,13 @@
 /*   By: azhuk <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/10/01 17:38:53 by azhuk             #+#    #+#             */
-/*   Updated: 2016/10/11 17:18:09 by azhuk            ###   ########.fr       */
+/*   Updated: 2016/10/12 10:34:21 by azhuk            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-static int	ft_wordcount(char *str, char c)
+static int		ft_wordcount(char *str, char c)
 {
 	int		i;
 	int		j;
@@ -30,7 +30,7 @@ static int	ft_wordcount(char *str, char c)
 	return (j);
 }
 
-static char	*ft_trim(char const *s, char c)
+static char		*ft_trim(char const *s, char c)
 {
 	int		i;
 	char	*res;
@@ -49,7 +49,7 @@ static char	*ft_trim(char const *s, char c)
 	return (res);
 }
 
-char		**ft_strsplit(char const *s, char c)
+char			**ft_strsplit(char const *s, char c)
 {
 	int		i;
 	int		w;
@@ -73,5 +73,3 @@ char		**ft_strsplit(char const *s, char c)
 	spl[w] = NULL;
 	return (spl);
 }
-
-

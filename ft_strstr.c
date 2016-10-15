@@ -6,7 +6,7 @@
 /*   By: azhuk <azhuk@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/09/25 11:44:17 by azhuk             #+#    #+#             */
-/*   Updated: 2016/09/27 10:13:14 by azhuk            ###   ########.fr       */
+/*   Updated: 2016/10/12 10:36:14 by azhuk            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 char	*ft_strstr(const char *haystack, const char *needle)
 {
-	int i;
-	int pos;
-	int len;
+	int		i;
+	int		pos;
+	int		len;
 
 	i = 0;
 	pos = 0;

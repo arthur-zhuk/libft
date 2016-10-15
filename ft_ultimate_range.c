@@ -6,7 +6,7 @@
 /*   By: azhuk <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/10/06 11:01:35 by azhuk             #+#    #+#             */
-/*   Updated: 2016/10/06 11:29:39 by azhuk            ###   ########.fr       */
+/*   Updated: 2016/10/12 10:38:36 by azhuk            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,9 +14,9 @@
 
 int		ft_ultimate_range(int **range, int min, int max)
 {
-	int i;
-	int j;
-	int *array;
+	int		i;
+	int		j;
+	int		*array;
 
 	i = 0;
 	if (max <= min)

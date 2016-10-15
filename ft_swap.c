@@ -6,7 +6,7 @@
 /*   By: azhuk <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/10/06 10:34:14 by azhuk             #+#    #+#             */
-/*   Updated: 2016/10/06 11:29:36 by azhuk            ###   ########.fr       */
+/*   Updated: 2016/10/12 10:37:19 by azhuk            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 void	ft_swap(int *a, int *b)
 {
-	int placeholder;
+	int		placeholder;
 
 	placeholder = *a;
 	*a = *b;

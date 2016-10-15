@@ -6,7 +6,7 @@
 /*   By: azhuk <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/09/29 18:30:23 by azhuk             #+#    #+#             */
-/*   Updated: 2016/10/11 11:02:28 by azhuk            ###   ########.fr       */
+/*   Updated: 2016/10/12 10:37:00 by azhuk            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,6 @@ char	*ft_strsub(char const *s, unsigned int start, size_t len)
 	size_t	i;
 
 	i = 0;
-	/*sub_str = (char *)malloc(sizeof(char) * (len + 1));*/
 	sub_str = ft_strnew(len);
 	if (sub_str == NULL)
 		return (NULL);
