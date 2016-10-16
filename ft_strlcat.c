@@ -6,7 +6,7 @@
 /*   By: azhuk <azhuk@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/09/24 18:13:35 by azhuk             #+#    #+#             */
-/*   Updated: 2016/09/28 20:55:52 by azhuk            ###   ########.fr       */
+/*   Updated: 2016/10/15 16:56:56 by azhuk            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ size_t	ft_strlcat(char *dest, const char *src, size_t size)
 	dlen = ptrdest - dest;
 	n = size - dlen;
 	if (n == 0)
-		return (dlen + strlen(ptrsrc));
+		return (dlen + ft_strlen(ptrsrc));
 	while (*ptrsrc)
 	{
 		if (n != 1)
