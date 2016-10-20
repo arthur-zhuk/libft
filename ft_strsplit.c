@@ -6,7 +6,7 @@
 /*   By: azhuk <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2016/10/01 17:38:53 by azhuk             #+#    #+#             */
-/*   Updated: 2016/10/12 10:34:21 by azhuk            ###   ########.fr       */
+/*   Updated: 2016/10/20 13:41:31 by azhuk            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,8 @@ static char		*ft_trim(char const *s, char c)
 	while (s[i] != c)
 		i++;
 	res = (char *)malloc(sizeof(char) * (i + 1));
+	if (!res)
+		return (NULL);
 	i = 0;
 	while (s[i] != c)
 	{
